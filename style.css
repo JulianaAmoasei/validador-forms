@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+  width: 25%;
+  margin: auto;
+}
+
+form input {
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+}
+
+form label {
+  font-size: 15px;
+}
+
+#btn-enviar {
+  margin: auto;
+  margin-top: 20px;
+  width: 50%;
+  height: 20px;
+}
+

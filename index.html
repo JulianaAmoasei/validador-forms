@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <form>
+      <label for="campo-nome">Nome Completo</label>
+      <input id="campo-nome" type="text" placeholder="Insira seu nome e sobrenome" />      
+      
+      <label for="campo-email">E-mail de contato</label>
+      <input id="campo-email" type="email" placeholder="insira seu e-mail" />
+
+      <label for="campo-data">Data de Nascimento</label>
+      <input id="campo-data" type="date" />
+      
+      <label for="campo-cpf">CPF</label>
+      <input id="campo-cpf" type="text" placeholder="insira seu CPF (somente números)" maxlength="11" pattern="[0-9]{11}" />
+
+      <input id="btn-enviar" type="submit" value="enviar" />
+    </form>
+    <script src="script.js"></script>
+    <script src="valida-cpf.js"></script>
+  </body>
+</html>
